@@ -3,7 +3,7 @@ const nextConfig = {
   output: "export",
   distDir: "../docs",
   // 在这里添加 basePath 配置
-  basePath: "/Web-develop/docs",
+  basePath: "/Web-develop",
   // 如果您有 images 配置，确保路径也考虑到 basePath
   // 例如，如果您的图片在 public 目录下，并且在代码中通过 /images/my-image.png 引用
   // Next.js 会自动处理 basePath。但如果您有特殊的 loader 配置，可能需要调整。
