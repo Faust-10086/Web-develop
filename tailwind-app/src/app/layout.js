@@ -8,13 +8,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="zh-CN"> {/* 推荐使用中文 lang */}
-      <head>
-
-      </head>
-      <body
-        className={` antialiased bg-slate-50 flex flex-col min-h-screen`}
-      >
+    <html lang="zh-CN">
+      <head></head>
+      <body className={` antialiased bg-slate-50 flex flex-col min-h-screen`}>
         <div className="flex-grow">{children}</div>
         <Footer /> {/* 添加 Footer 组件 */}
       </body>
