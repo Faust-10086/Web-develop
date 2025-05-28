@@ -12,7 +12,7 @@ export default function Footer() {
         <p className="text-xs mt-2">
           使用 Next.js 和 Tailwind CSS 构建
         </p>
-        {/* 可以在这里添加更多链接或信息 */}
+
       </div>
     </footer>
   );
